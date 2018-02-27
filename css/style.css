@@ -40,5 +40,42 @@ header::after{
   position: absolute;
   top: 100%;
   right: 0%;
-  background: #46465;
+  background: #464655;
 }
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li {
+border-bottom: 1px solid #575766;
+}
+
+.site-nav li:last-child {
+  border-bottom: none;
+}
+
+.site-nav a {
+  color: #EBEBD3;
+  display: block;
+  padding: 2em 6em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #E4B363;
+  color: #464655;
+}
+
+/*.menu-toggle {
+  border: 1px dashed black;
+  padding: 1em;
+  position: absolute;
+  top: .75em;
+  right: .75em;
+  cursor: pointer;
+}*/

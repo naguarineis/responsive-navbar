@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
-
+/*
+====================
+                  Comment#1--Mobile screen style--
+====================
+*/
 body {
   background: #F0F8EA;
   font-family: 'Quicksand', sans-serif;
@@ -126,4 +130,40 @@ border-bottom: 1px solid #575766;
 
 .open .hamburger::after {
   transform: translateY(-2.9px) rotate(-90deg);
+}
+/*
+====================
+                  Comment#1--Desktop and big screen style (Media query)--
+====================
+*/
+@media (min-width: 880px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .site-nav {
+    height: auto;
+    position: relative;
+    background: transparent;
+    float: right;
+  }
+
+  .site-nav li {
+    display: inline-block;
+    border: none;
+  }
+
+  .site-nav a {
+    padding: 0px;
+    margin-left: 3em;
+  }
+
+  .site-nav a:hover,
+  .site-nav a:focus {
+    background: transparent;
+  }
+
+  .site-nav--icon {
+    display: none;
+  }
 }

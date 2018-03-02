@@ -41,6 +41,12 @@ header::after{
   top: 100%;
   right: 0%;
   background: #464655;
+  height: 0px;
+  overflow: hidden;
+}
+
+.site-nav--open {
+  height: auto;
 }
 
 .site-nav ul {
